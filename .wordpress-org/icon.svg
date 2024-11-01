@@ -1,0 +1,26 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6f88a7;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #b6b6bf;
+      }
+
+      .cls-3 {
+        fill: #3f7291;
+        opacity: 0.8;
+      }
+    </style>
+  </defs>
+  <image width="256" height="256" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAADHklEQVR4nO3UQREAIAzAsIF/xfuAkCYWetezu2+ApCs7dBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAhBkAVM3MBwxKBe0HGRuyAAAAAElFTkSuQmCC"/>
+  <path class="cls-1" d="M55.129,91.512L128,18.641l72.871,72.871L128,164.383Z"/>
+  <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-2" d="M55.095,164.452L128,91.547l72.905,72.905L128,237.358Z"/>
+  <path id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" class="cls-3" d="M55.094,91.547l72.522-.341,73.29,73.247H129.488Z"/>
+</svg>

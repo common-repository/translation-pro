@@ -1,0 +1,551 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+label.cl-success {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: rgb(51, 135, 204);
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 5px;
+    padding: 4px 5px;
+    border-radius: 6px;
+    background-color: green;
+}
+
+label.cl-danger {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: rgb(51, 135, 204);
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 5px;
+    padding: 4px 5px;
+    border-radius: 6px;
+    background-color: red;
+}
+
+label.cl-info {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: rgb(51, 135, 204);
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 5px;
+    padding: 4px 5px;
+    border-radius: 6px;
+    background-color: #17a2b8;
+}
+
+label.cl-warning {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: rgb(51, 135, 204);
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 5px;
+    padding: 4px 5px;
+    border-radius: 6px;
+    background-color: #ffc107;
+}
+
+label.cl-secondary {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: rgb(51, 135, 204);
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 5px;
+    padding: 4px 5px;
+    border-radius: 6px;
+    background-color: #ffc107;
+}
+
+.cl_loading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+    z-index: 9999;
+    display: none;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+    background: white;
+    opacity: .5;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.loading-bar {
+    display: inline-block;
+    width: 4px;
+    height: 18px;
+    border-radius: 4px;
+    animation: loading 1s ease-in-out infinite;
+}
+.loading-bar:nth-child(1) {
+    background-color: #3498db;
+    animation-delay: 0;
+}
+.loading-bar:nth-child(2) {
+    background-color: #c0392b;
+    animation-delay: 0.09s;
+}
+.loading-bar:nth-child(3) {
+    background-color: #f1c40f;
+    animation-delay: .18s;
+}
+.loading-bar:nth-child(4) {
+    background-color: #27ae60;
+    animation-delay: .27s;
+}
+
+@keyframes loading {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(1, 2.2);
+    }
+    40% {
+        transform: scale(1);
+    }
+}
+
+.cl_lng_breakdown_wrapper {
+    padding: 5px;
+    background-color: #4c6f7c;
+    color: white;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cl_lng_breakdown_wrapper .cl_lng_icon {
+    margin-right: 5px;
+    float: left;
+}
+
+.cl_lng_breakdown_wrapper a {
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+.cl_required {
+    color: #ff0000;
+}
+
+.cl_error {
+    background-color: #ffa7a7 !important;
+}
+
+.cl_balance {
+    position: relative;
+    width: 10%;
+    float: none;
+    text-align: center;
+    line-height: 130%;
+    padding: 1% 2%;
+    font-size: .9vw;
+    margin: 0;
+    background-color: #fff;
+    border-left: 4px solid #058aff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    font-size: x-large;
+    clear:both;
+}
+
+.cl_balance p {
+	font-size: .9vw;
+	margin-top: 0;
+}
+
+.search-box input[type="submit"] {
+	float:right;
+	width:100px;
+}
+
+
+/*******************************SETTINGS PAGE*******************************/
+
+.main_header {    
+    display: flex;
+	align-items: center;
+	padding:1%;
+	background:url('../img/header_bg_2.png') repeat center center;
+}
+
+.main_header img {
+    max-width: 3vw;
+    margin-right: 1.5vw;
+}
+
+.wrap .main_header h1 {
+    color:white;
+    font-size: 2.0vw;	    
+}    
+
+h1 span {
+    flex-wrap: wrap;
+	display: block;
+	font-size: .8vw;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+h2 {
+    font-size: 1.6vw;
+    text-transform: uppercase;
+    color:#23282d;
+}
+
+.settings h3 {
+    text-align: center;
+    font-size: 1.0vw;
+}
+
+.settings input[type="text"], .settings input[type="password"] {
+    display:block;
+    width:100%;
+    margin-bottom: 2%;
+	padding: 2.5% 4%;
+}        
+
+input {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    width: 230px;
+}
+
+input[type="submit"], input[type="button"] {        
+    border: none;
+    opacity: 0.8;
+    color: white;
+    font-size: large;
+    width:100%;
+    transition:all linear .2s;
+    cursor: pointer;
+    padding:2% 0;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    opacity: 1;
+}
+
+input[type="submit"] {
+    background-color: #3297d6;
+}
+
+input[type=button] {
+    background-color: #25ac2c;
+}
+
+#login_area p, #registration_area p {
+    display: block;
+    text-align: center;
+    font-size: .9vw;
+    margin:1% 0;
+}
+
+.settings_wrapper {
+    margin:auto;
+    width:100%;
+}
+
+.settings {
+    width:30%;
+    margin:auto;
+}
+
+.danger {
+    background-color: #fe3f3f !important;
+}
+
+.notice-error, div.error, div.updated {
+    position: fixed;
+	right: 1vw;
+}
+
+p.total {
+	text-align: right;
+	font-weight: 700;
+}
+
+
+/*******************************ORDER CONTENT*******************************/
+.order_info, .order_details, .order_language, .order_price, .view_order {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.order_box {
+    border:solid 1px #eaf1f5;
+    border-radius: 0;
+    padding:2%;
+    margin-top: 5%;
+    background:white;
+}
+
+.order_main_content {
+    overflow: hidden;
+}
+
+.order_language {
+    bottom:2.5vw;
+}
+
+.order_price {
+    bottom:1vw;
+}
+
+.order_info div:last-child {
+    margin-left: auto;
+}
+
+.order_main_content {
+    margin-top: 2%;
+}
+
+.order_details p {
+    color: #ddd;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.order_details p:last-child {
+    margin-left: auto;
+}
+
+.order_language p {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin:0;
+    padding:0.1vw 1vw;
+    background:#eaf1f5;
+    border-radius: 2px;
+}
+
+.order_language p span {
+    display: inline-block;
+}
+
+.order_language p span.flag {
+    width: 1.5vw;
+    margin-top:2%;
+}
+
+.order_language p span.divider {
+    margin:0 1vw;
+}
+
+.order_language p span img {
+
+}
+
+.order_language a {
+    display: block;
+    margin-left: auto;
+    background:#5cb85c;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:0.1vw 0.5vw;
+    border-radius: 2px;
+}
+
+.order_language a.in_progress, .order_language a.in_shopping_cart, .order_language a.need_to_confirm {
+    background:#d88852
+}
+
+.order_price p span {
+    max-width: 1.5vw;
+    display: inline-block;
+}
+
+.order_price p:last-child {
+    margin-left: auto;
+    text-align: right;
+    font-weight: 700;
+}
+
+.view_order a {
+    margin-top: 1%;
+    font-size: 1.1vw;
+    padding: 0.5vw 2%;
+    transition: all linear 0.2s;
+    border-radius: 3px;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    background: #DA5252;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 40%;
+}
+
+.order_info div:last-child {
+    margin-left: auto;
+}
+
+.order_main_content {
+    margin-top: 2%;
+}
+
+.translation_box {
+    width: 44%;
+    float: left;
+    padding:1% 2%;
+    border:solid 1px #eaeaea;
+}
+
+.translation_box.target_language {
+    background:rgba(34, 108, 153, 0.1);
+}
+.translation_box:last-child {
+    float: right;
+}
+
+.translation_box h5 {
+    font-weight: 700;
+    font-size: 1.1vw;
+    margin-top: 0;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.translation_box h5 span {
+	display: inline-block;
+	margin-right: 1%;
+}
+
+#postdiv {
+	width:70%;
+	float: left;
+}
+
+#source_div {
+	width:45%;
+	float:left;
+}
+
+#target_div {
+	width:45%;
+	float:right;
+}
+
+#source_div, #target_div {
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+
+#instructions {
+	width:100%;
+	clear: both;
+}
+
+#source_div label {
+	width:100%;
+}
+
+select#source {
+	width: 100%;
+}
+
+select#delivery {
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+#overview {
+	width:20%;
+	float:right; 
+	border: 1px solid #e5e5e5;
+	background: #fff; 
+	margin-top: 30px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+#titlediv #title {
+	padding:1.5%;
+}
+
+#delivery_time {
+	padding:2% 3%;
+}
+
+#delivery_time h3 {
+	text-transform: uppercase;
+}
+
+#delete-action b {
+	font-size: 1.0vw;
+}
+
+#delete-action b span {
+	color:#3297d6;
+}
+
+#delete-action {
+	float:none;
+	width:100%;
+}
+
+#publishing-action {
+	float:none;
+	width:100%;
+	text-align: center;
+	font-size: 1.0vw;
+}
+
+#publishing-action input[type="submit"] {
+	font-size: 1.0vw;
+	padding:1% 0;
+	height:auto;
+}
+
+#overview label, #postdiv label, #instructions label {
+	margin-bottom: 5px;
+	display:block;
+}
+
+.select2-container--default .select2-selection--single {
+	padding:5px;
+}
+
+.select2-container .select2-selection--single {
+	height:auto;
+}
+
+
